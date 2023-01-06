@@ -1,0 +1,22 @@
+<!-- .header { transition:0.3s ease-in; overflow:hidden; }
+/* .header .nav { width:100%; margin:0 auto; } */
+.header .nav > ul { display:flex; gap:20px; }
+.header .nav > ul > li { font-size:18px; color:#fff; }
+/* .header .nav > ul > li:hover > ul{ opacity:1; } */
+.header .nav > ul > li > .depth-menu {  position:absolute; opacity:0; top:60px; left:0; padding-bottom:30px; width:100%; background:#daeafa; transition:0.3s 0.2s; }
+.header .nav > ul > li > .depth-menu.active{opacity:1;}
+.header .nav .depth-menu li { padding-top:20px; max-width:1500px; color:rgb(66, 66, 66); text-align:center; }
+
+/* 
+1. gnb의 nav의 ul에 마우스를 올리면 default로 submenu가 내려와야한다. transition
+: css로 ul에 hover되면 submenu가 default 안보이다가 보이게 처리하기.
+
+2. gnb의 nav의 각각의 li에 마우스를 올리면 해당 li안의 ul.depth-menu가 내려온다.
+: ul안의 li에 마우스 대면 하위메뉴(서브메뉴명) 등장?
+각각 올리면 하위 메뉴(서브메뉴명) 나오게 하려면 ..
+li.mouseover 되면 active class 추가해서 글씨 보이게 하면..
+
+3. 해당 li의 ul.depth-menu에 마우스가 떨어지면 다시 올라간다. transition
+: li, 그리고 ul에서 .mouseout이 되면 active도 사라지고 submenu 다시 default 안보이게하기
+*/
+ -->
