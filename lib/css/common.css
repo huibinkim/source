@@ -1,0 +1,41 @@
+#wrap { min-width:1500px; }
+
+/* header */
+#headerWrap { position:fixed; left:0; right:0; top:0; background:#0d6fb8; z-index:10; box-shadow:0px 2px 4px 0 rgba(0, 0, 0, 0.2); }
+#headerWrap .header { display:flex; align-items:center; justify-content:center; max-width:1500px; height:60px; padding:0 40px 0 10px; }
+#headerWrap .header .logo { display:flex; font-size:18px; color:#fff; margin-right:auto; }
+#headerWrap .header .logo img{ width:180px; }
+#headerWrap .header .logo a span{ display:inline-block; padding-top:14px; padding-left:5px; }
+
+
+.gnb-wrap .gnb > ul { display:flex; align-items:center; }
+.gnb-wrap .gnb > ul > li > a { position:relative; display:block; padding:0 20px; line-height:60px; font-size:16px; color:#fff; }
+.gnb-wrap .gnb > ul > li.active > a::after { content:''; display:block;position:absolute; left:0; right:0; bottom:0; width:100%; height:3px; background:#fff; }
+.gnb-wrap .gnb > ul > li .depth-menu { display:none; width:100%; height:250px; background:#ccc; position:absolute; left:0; right:0; top:60px; }
+.gnb-wrap .gnb > ul > li .depth-menu ul { display:none; }
+.gnb-wrap .gnb > ul > li .depth-menu ul.active { position:relative; z-index:10; display:block; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 본문 */
+#containerWrap .container { padding:110px 40px 100px; max-width:1260px; }
+.section { padding-bottom:40px; }
+.top-title { padding-bottom:40px; color:#222; font-weight:bold; font-size:32px; }
+.sub-title { padding-bottom:10px; font-size:18px; color:#000; font-weight:500; }
